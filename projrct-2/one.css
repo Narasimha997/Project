@@ -50,12 +50,15 @@ nav ul li button:hover{
     color:aqua;
 }
 nav ul li a:hover{
-    color:aqua;
+    color:cyan;
+    border-radius: 25px;
+
 }
 a{
     text-decoration:none;
-    color:palevioletred;
+    color:Cyan;
     font-size:26px;
+
 }
 #login-form{
     display:block;
@@ -73,16 +76,26 @@ a{
     width:220px;
     margin:35px auto;
     position: relative;
-    box-shadow:0 0 20px 9px #f57d06e0;
-    border-radius: 30px;
+    box-shadow:0 0px 0px 3px cyan;
+    border-radius: 25px;
+    border-color:cyan;
 }
 .toggle-btn{
     padding: 10px 30px;
-    cursor: pointer;
+    cursor:auto;
     background:transparent;
+    border-radius:25px;
+    outline:none;
+    color:#f3c693;
+    position:relative;
+    box-shadow:0 0 5px cyan,0 0 15px cyan;
+    border-color: cyan;
+}
+.toggle-btn:hover{
     border:0;
     outline:none;
-    position:relative;
+
+  box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
 }
 #btn{
     top:0;
@@ -99,12 +112,16 @@ a{
     position: absolute;
     width:280px;
     transition:3s;
+    padding:10px;
+    border-radius: 10px;
+
 }
 .input-group-register{
     top:120px;
     position: absolute;
     width:280px;
     transition:3s;
+    padding:10px;
 }
 .input-field{
     width:100%;
@@ -123,10 +140,14 @@ a{
     cursor: pointer;
     display: block;
     margin:auto;
-    background: #F3C693;
+    box-shadow:0 0 5px #f3c693;
     border:0;
     outline:none;
     border-radius:30px;
+
+}
+.submit-btn:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 30px cyan;
 }
 .check-box{
     margin:30px 10px 34px 0;
