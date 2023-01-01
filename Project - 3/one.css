@@ -5,12 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 body{
     min-height: 100vh;
     background: linear-gradient(#2b1055,#75a7de);
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 header{
     position: absolute;

@@ -11,55 +11,6 @@
     background-size: cover;
     position: absolute;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 30px;
-    padding-top: 50px;
-}
-nav{
-    flex: 1;
-    text-align: right;
-}
-nav ul{
-    display:inline-block;
-    list-style:none;
-}
-nav ul li{
-    display:inline-block;
-    margin-right: 70px;
-}
-nav ul li a{
-    text-decoration: none;
-    font-size:17px;
-    color:white;
-    font-family: sans-serif;
-}
-nav ul li button{
-     font-size:17px;
-     color:rgb(247, 243, 243);
-     outline: none;
-     border:none;
-     background:transparent;
-     cursor:pointer;
-     font-family:sans-serif;
-}
-nav ul li button:hover{
-    color:aqua;
-}
-nav ul li a:hover{
-    color:cyan;
-    border-radius: 25px;
-
-}
-a{
-    text-decoration:none;
-    color:Cyan;
-    font-size:26px;
-
-}
 #login-form{
     display:block;
 }
@@ -67,10 +18,11 @@ a{
     width:380px;
     height:480px;
     position:relative;
-    margin: 2% auto;
+    margin: 12% auto;
     background: rgba(29, 23, 23, 0.3);
     padding:10px;
     overflow:hidden;
+    border-radius: 20px;
 }
 .button-box{
     width:220px;
@@ -171,4 +123,47 @@ span{
 #register input{
     color:white;
     font-size: 15;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header a.logo{
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size:1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+header ul li{
+    list-style:none;
+    font-size: medium;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    color:#fff;
+    font-size: medium;
+    border-radius:20px;
+
+}
+header ul li a:hover,
+header ul li a.active{
+    background:#fff;
+    color:#2b1055;
+    box-shadow: 0 0 5px rgb(0, 255, 255),0 0 25px rgb(0, 225, 225),0 0 35px rgb(0,225,225),0 0 45px rgb(0,225,225);
 }
