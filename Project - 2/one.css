@@ -76,7 +76,7 @@ a{
     width:220px;
     margin:35px auto;
     position: relative;
-    box-shadow:0 0px 0px 3px cyan;
+    box-shadow:0 0px 0px 3px rgb(248, 250, 250);
     border-radius: 25px;
     border-color:cyan;
 }
@@ -88,14 +88,14 @@ a{
     outline:none;
     color:#f3c693;
     position:relative;
-    box-shadow:0 0 5px cyan,0 0 15px cyan;
-    border-color: cyan;
+    box-shadow:0 0 5px rgb(255, 155, 4),0 0 15px rgb(255, 155, 4);
+    border-color: rgb(249, 250, 250);
 }
 .toggle-btn:hover{
     border:0;
     outline:none;
 
-  box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+  box-shadow: 0 0 5px rgb(255, 155, 4),0 0 25px rgb(255, 155, 4),0 0 50px rgb(255, 155, 4),0 0 100px rgb(255, 155, 4),0 0 200px rgb(255, 155, 4);
 }
 #btn{
     top:0;

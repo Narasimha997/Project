@@ -51,6 +51,7 @@ header ul li a:hover,
 header ul li a.active{
     background:#fff;
     color:#2b1055;
+    box-shadow: 0 0 5px rgb(0, 255, 255),0 0 25px rgb(0, 225, 225),0 0 35px rgb(0,225,225),0 0 45px rgb(0,225,225);
 }
 section{
     position: relative;
@@ -85,6 +86,10 @@ section img#moon{
 }
 section img#mountains_front{
     z-index: 10;
+}
+section a:hover{
+    /* cursor: pointer; */
+    box-shadow: 0 0 5px rgb(0, 255, 255),0 0 25px rgb(0, 225, 225),0 0 35px rgb(0,225,225),0 0 45px rgb(0,225,225);
 }
 #text{
     position: absolute;
