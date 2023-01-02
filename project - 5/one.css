@@ -3,16 +3,19 @@
     margin:0;
     padding:0;
     border: 30px;
+    padding: auto;
     box-sizing:border-box;
     font-family: 'Ubuntu',sans-serif;
 }
 body{
-    padding: 200px;
-    display:flex;
+    padding: 225px;
+    display:grid;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:#3c2846;
+    background:#564b5c;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,300%);
 }
 .container{
     display:flex;
@@ -28,13 +31,13 @@ body{
     margin:30px;
     background: #287bff;
     border-radius: 20px;
-    border-bottom-left-radius: 160px;
-    border-bottom-right-radius: 160px;
+    /* border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px; */
     box-shadow: 0 15px 0 #fff,
     inset 0 -15px 0 rgba(225,225,225,0.25),
     0 35px 0 rgba(0,0,0,0.15);
     overflow: hidden;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: flex-start;
 }
@@ -52,7 +55,7 @@ body{
     
 }
 .card:nth-child(1){
-    background: linear-gradient(to bottom,#ff2ae0,#645bf6);
+    background: linear-gradient(to bottom,#ece8ec,#645bf6);
 }
 .card:nth-child(2){
     background: linear-gradient(to bottom,#ffec61,#f321d7);
@@ -64,7 +67,7 @@ body{
     position: relative;
     width: 140px;
     height: 120px;
-    background: #3c2846;
+    background: #564b5c;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     box-shadow: 0 10px 0 rgba(0,0,0,0.1),
@@ -80,7 +83,7 @@ body{
     height: 50px;
     background: transparent;
     border-top-right-radius: 50px;
-    box-shadow: 15px -15px 0 15px #3c2846;
+    box-shadow: 15px -15px 0 15px #564b5c;
 }
 .icon::after{
     content: '';
@@ -91,7 +94,7 @@ body{
     height: 50px;
     background: transparent;
     border-top-left-radius: 50px;
-    box-shadow: -15px -15px 0 15px #3c2846;
+    box-shadow: -15px -15px 0 15px #564b5c;
 
 }
 .icon ion-icon{
@@ -131,7 +134,7 @@ header{
     top:0;
     left:0;
     width: 100%;
-    padding:30px 100px;
+    padding:30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
