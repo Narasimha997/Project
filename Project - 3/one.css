@@ -22,6 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    margin-right: 0;
 }
 header a.logo{
     color:#fff;
@@ -53,7 +54,7 @@ header ul li a.active{
     color:#2b1055;
     box-shadow: 0 0 5px rgb(0, 255, 255),0 0 25px rgb(0, 225, 225),0 0 35px rgb(0,225,225),0 0 45px rgb(0,225,225);
 }
-section{
+div{
     position: relative;
     width: 100%;
     height:100vh;
@@ -63,7 +64,7 @@ section{
     align-items: center;
     overflow: hidden;
 }
-section::before{
+div::before{
     content: '';
     position: absolute;
     bottom:0;
@@ -72,7 +73,7 @@ section::before{
     background:linear-gradient(to top,#1c0522,transparent);
     z-index: 1000;
 }
-section img{ 
+div img{ 
     position: absolute;
     top:0;
     left:0;
@@ -81,13 +82,13 @@ section img{
     object-fit: cover;
     pointer-events: none;
 }
-section img#moon{
+div img#moon{
     mix-blend-mode: screen;
 }
-section img#mountains_front{
+div img#mountains_front{
     z-index: 10;
 }
-section a:hover{
+div a:hover{
     /* cursor: pointer; */
     box-shadow: 0 0 5px rgb(0, 255, 255),0 0 25px rgb(0, 225, 225),0 0 35px rgb(0,225,225),0 0 45px rgb(0,225,225);
 }

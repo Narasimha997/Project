@@ -11,6 +11,9 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #244;
+    min-height: 100vh;
+    background: url(/pics/card1.png);
+    background-size: cover;
 }
 .container{
     position: relative;

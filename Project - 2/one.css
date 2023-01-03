@@ -8,7 +8,7 @@
 .full-page{
     height:100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/pics/DSCF8365.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/pics/mine.png');
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -42,14 +42,14 @@
     outline:none;
     color:#f3c693;
     position:relative;
-    box-shadow:0 0 5px rgb(255, 155, 4),0 0 15px rgb(255, 155, 4);
+    box-shadow:0 0 5px green,0 0 15px green;
     border-color: rgb(249, 250, 250);
 }
 .toggle-btn:hover{
     border:0;
     outline:none;
 
-  box-shadow: 0 0 5px rgb(255, 155, 4),0 0 25px rgb(255, 155, 4),0 0 50px rgb(255, 155, 4),0 0 100px rgb(255, 155, 4),0 0 200px rgb(255, 155, 4);
+  box-shadow: 0 0 5px green,0 0 25px green,0 0 50px green,0 0 100px green,0 0 200px green;
 }
 #btn{
     top:0;
@@ -101,7 +101,7 @@
 
 }
 .submit-btn:hover{
-    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 30px cyan;
+    box-shadow: 0 0 5px green,0 0 25px green,0 0 30px green
 }
 .check-box{
     margin:30px 10px 34px 0;

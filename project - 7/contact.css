@@ -1,0 +1,185 @@
+@import url('https://fons.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    overflow-x:hidden;
+    background: url(/pics/tech.jpg);
+    background-size: cover;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header a.logo{
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size:1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    /* font-size: 1.2em; */
+}
+header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    color:#fff;
+    border-radius:20px;
+
+}
+header ul li a:hover,
+header ul li a.active{
+    background:#fff;
+    color:#2b1055;
+    box-shadow: 0 0 5px rgb(0, 255, 255),0 0 25px rgb(0, 225, 225),0 0 35px rgb(0,225,225),0 0 45px rgb(0,225,225);
+}
+.contact{
+    position: relative;
+    /* min-height: 100vh; */
+    padding:40px 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.contact .content{
+    max-width: 800px;
+    margin-bottom: 40;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.3em;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding:20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 20px;
+    font-size:25px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactinfo .box .text h3{
+    font-weight: 00;
+    color:orange;
+}
+.form{
+    width:40%;
+    padding: 40px;
+    background: #fff;
+}
+.form h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.form .ibox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.form .ibox input,
+.form .ibox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline:none;
+    resize: none;
+}
+.form .ibox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.form .ibox input:focus ~ span,
+.form .ibox input:valid ~ span,
+.form .ibox textarea:focus ~ span,
+.form .ibox textarea:valid ~ span{
+    color: #e91c63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.form .ibox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-size: 18px;
+}
+@media(max-width:991px){
+   
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .form{
+        width: 100%;
+    }
+}
