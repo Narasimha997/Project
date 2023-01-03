@@ -15,7 +15,7 @@ header{
     top:0;
     left:0;
     width: 100%;
-    padding:30px 100px;
+    padding:30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,6 +102,9 @@ header ul li a.active{
     border-radius: 20px;
     font-size:25px;
 }
+.container .contactinfo .box .icon:hover{
+    box-shadow: 0 0 5px white,0 0 25px white,0 0 45px white,0 0 65px white;
+}
 .container .contactinfo .box .text{
     display: flex;
     margin-left: 20px;
@@ -128,6 +131,9 @@ header ul li a.active{
     position: relative;
     width: 100%;
     margin-top: 10px;
+}
+.form:hover{
+    box-shadow: 0 0 5px black,0 0 25px black,0 0 45px black, 0 0 65px black;
 }
 .form .ibox input,
 .form .ibox textarea{
@@ -166,6 +172,9 @@ header ul li a.active{
     cursor: pointer;
     padding:10px;
     font-size: 18px;
+}
+.form .ibox input[type="submit"]:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 45px cyan,0 0 65px cyan;
 }
 @media(max-width:991px){
    
