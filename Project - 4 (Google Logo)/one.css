@@ -5,8 +5,9 @@
     position: relative;
     width: 300px;
     height: 300px;
+    top:100px;
     border-radius: 50%;
-    margin:50px auto;
+    margin:100px auto;
     overflow:hidden;
 }
 #logo::before{
@@ -26,10 +27,10 @@
 }
 .top{
     width:78%;
-    height: 42%;
+    height: 82%;
     position: absolute;
    background-color: #f44536;
-   transform: rotateZ(-40deg);
+   transform: rotateZ(0deg);
 
 }
 .bottom{
@@ -53,22 +54,26 @@
 }
 .left{
     width: 35%;
-    height:32%;
+    height:45%;
     position: absolute;
-    top:50%;
+    top:70px;
     right:0;
+    bottom:60px;
     z-index:2;
     background-color: #4285f4;
-    transform: rotateZ(45deg);
+    transform: rotateZ(-10deg);
 }
 .line{
     width: 50%;
     height:20%;
     position: absolute;
     top:0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+    bottom: 190px;
+    /* right:0px; */
+    /* margin:0px; */
+    left:175px;
+    margin-top:40px;
     background-color: #4285f4;
-    z-index:5;
+    z-index: 4;
+    transform: rotateZ(70deg);
 }
