@@ -136,6 +136,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    flex-wrap: wrap;
 }
 header a.logo{
     color:#fff;

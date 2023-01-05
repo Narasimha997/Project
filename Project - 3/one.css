@@ -23,6 +23,7 @@ header{
     align-items: center;
     z-index: 1000;
     margin-right: 0;
+    flex-wrap: wrap;
 }
 header a.logo{
     color:#fff;
@@ -98,7 +99,7 @@ div a:hover{
     white-space: nowrap;
     font-size: 7.5vw;
     z-index:9;
-    right:-350px
+    right:-350px;
 }
 #btn{
     text-decoration: none;
