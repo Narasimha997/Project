@@ -76,6 +76,8 @@ header ul li a.active{
     flex-wrap:wrap;
     /* padding: 10px;   */
     box-sizing: content-box;
+    width:100%;
+
 }
 .card{
     position: relative;
